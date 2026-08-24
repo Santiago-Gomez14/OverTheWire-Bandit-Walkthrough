@@ -1,25 +1,27 @@
-# 🛡️ OverTheWire: Bandit Walkthrough & Linux Security Labs
+# 🛡️ OverTheWire: Bandit Walkthrough | Linux & Security Labs
 
-Repositorio con la resolución técnica, razonada y documentada de los wargames de **OverTheWire (Bandit)**. Orientado al dominio práctico de la CLI de Linux, procesamiento de flujos de texto, análisis de permisos del sistema y seguridad informática básica.
+Espacio de documentación técnica y aprendizaje continuo enfocado en la resolución de los wargames de **OverTheWire (Bandit)**. 
 
----
-
-## 📊 Matriz de Progreso y Comandos Dominados
-
-| Rango de Niveles | Temas Principales | Herramientas y Comandos Clave | Documentación |
-| :--- | :--- | :--- | :---: |
-| **Bandit 00 ➔ 05** | Conexiones SSH, archivos especiales (`-`), espacios, ficheros ocultos y tipos de datos (*magic numbers*). | `ssh`, `cat`, `ls -la`, `file`, `find`, `xargs` | [Ver Walkthrough](Bandit/Level-00-to-05.md) |
-| **Bandit 06 ➔ 10** | Búsquedas avanzadas por atributos (`size`, `user`, `group`), filtrado con `grep`, ordenamiento y análisis con `awk` / `strings`. | `find`, `grep`, `sort`, `uniq -u`, `strings`, `awk`, `tail` | [Ver Walkthrough](Bandit/Level-06-to-10.md) |
+Este repositorio refleja mi proceso práctico para dominar el entorno CLI de Linux, construir pipelines eficientes y comprender a bajo nivel el funcionamiento de permisos, flujos de datos y seguridad del sistema operativo.
 
 ---
 
-## 🛠️ Tecnologías y Entorno de Pruebas
-* **OS:** Linux (Parrot Security / Debian based)
-* **Shell:** Bash / Zsh
-* **Terminal Emulator:** Kitty / Tmux
-* **Enfoque:** 100% interactivo mediante línea de comandos (CLI) y pipelines (`|`).
+## 🎯 Enfoque y Metodología
+* **Comprensión sobre automatización ciega:** Cada nivel explica el *porqué* del comando y cómo la shell interpreta los argumentos.
+* **Optimización de flujos:** Uso de tuberías (`|`), redirección de descriptores de archivo (`stdin`, `stdout`, `stderr`) y filtros de texto avanzados.
+* **Mentalidad práctica:** Orientado a consolidar bases sólidas para administración de servidores, soporte técnico avanzado y operaciones de ciberseguridad (SOC / Blue Team).
 
 ---
 
-## 🔒 Política Ética
-De acuerdo con las normativas de los wargames y la ética profesional en ciberseguridad, las contraseñas y credenciales finales se encuentran ofuscadas (`[REDACTED]`). La documentación prioriza el análisis, los conceptos teóricos y la lógica de resolución de cada desafío.
+## 🛠️ Laboratorio y Herramientas de Trabajo
+* **Sistema Operativo:** Linux (Parrot Security OS / Debian based)
+* **Terminal & Multiplexor:** Kitty / Tmux
+* **Shell:** Bash & Zsh
+* **Editor de Código / Notas:** Vim / Markdown
+
+---
+
+## 🔒 Política Ética y Buenas Prácticas
+En conformidad con las normas de los wargames de *OverTheWire* y las buenas prácticas en seguridad de la información, **todas las credenciales y contraseñas finales se encuentran censuradas (`[REDACTED]`)**. 
+
+El propósito de este repositorio es exclusivamente pedagógico: documentar el análisis lógico, la sintaxis correcta y las habilidades adquiridas.
